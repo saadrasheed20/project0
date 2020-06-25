@@ -1,0 +1,44 @@
+$time: 0.5s;
+%text-center {
+	text-align: center;
+}
+
+.navbar{
+	> div{
+		text-align: center;
+	    font-size: 17px;
+	}
+}
+.image:hover{
+	opacity : 0.5;
+	transition: $time;
+}
+.img:hover{
+	width: 119%;
+	transition: $time;
+}
+.achievement, table{
+	margin-left: 20px;
+}
+table tr td, th{
+	border: 1px black solid;
+	font-size: 20px;
+	padding: 10px;
+	@extend %text-center;
+}
+table{
+	width: 70%;
+	margin-top: 15px;
+}
+.header-text{
+	text-align: right;
+}
+@media screen and (max-width: 600px){
+	#profile{
+		display: none;
+	}
+	.header-text{
+		width: 100%;
+		text-align:center;
+	}
+}
