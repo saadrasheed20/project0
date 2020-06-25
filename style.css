@@ -1,37 +1,50 @@
-.navbar > div{
-	text-align: center;
-    font-size: 17px;
+table tr td, th {
+  text-align: center;
 }
-.image:hover{
-	opacity : 0.5;
-	transition: 0.5s;
+
+.navbar > div {
+  text-align: center;
+  font-size: 17px;
 }
-.img:hover{
-	width: 119%;
-	transition: 0.4s;
+
+.image:hover {
+  opacity: 0.5;
+  transition: 0.5s;
 }
-.achievement, table{
-	margin-left: 20px;
+
+.img:hover {
+  width: 119%;
+  transition: 0.5s;
 }
-table tr td, th{
-	border: 1px black solid;
-	font-size: 20px;
-	padding: 10px;
-	text-align: center !important;
+
+.achievement, table {
+  margin-left: 20px;
 }
-table{
-	width: 70%;
-	margin-top: 15px;
+
+table tr td, th {
+  border: 1px black solid;
+  font-size: 20px;
+  padding: 10px;
 }
-.header-text{
-	text-align: right;
+
+table {
+  width: 70%;
+  margin-top: 15px;
 }
-@media screen and (max-width: 600px){
-	#profile{
-		display: none;
-	}
-	.header-text{
-		width: 100%;
-		text-align: center;
-	}
+
+.header-text {
+  text-align: right;
 }
+
+@media screen and (max-width: 600px) {
+  #profile {
+    display: none;
+  }
+
+  .header-text {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
